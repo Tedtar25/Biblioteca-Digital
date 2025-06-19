@@ -34,6 +34,6 @@ Base.metadata.create_all(bind=engine)
 @app.get("/", tags=["Home"])
 def message():
     return HTMLResponse(
-        content="Bienvenido a la Biblioteca Digital. Libros de Voodoo a tan solo $100 pesos.",
+        content="Bienvenido a la Biblioteca Digital. Libros de Voodoo a tan solo $10 pesos.",
         status_code=200
     )
