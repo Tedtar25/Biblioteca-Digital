@@ -8,7 +8,7 @@ from routes.book import book_router
 from routes.user import user_router
 
 app = FastAPI()
-app.title = "cesar livery "
+app.title = "cesar livery"
 app.version = "6.6.6"
 
 # 👇 Configuración CORS
